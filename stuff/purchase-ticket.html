@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Purchase Ticket | Salsa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/site.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+        
+        <!-- Page specific CSS links go here -->
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/purchase-ticket.css">
+        
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <!-- Header -->
+      <div id="header" class="container">
+        <a href="#" id="logo">Salsa</a>
+        <ul class="nav nav-pills ">
+          <li>
+            <form action="#">
+              <input id="search-bar" type="text" placeholder="Search">
+            </form>
+          </li>
+          <li class="dropdown">
+            <a class="nav-btn dropdown-toggle" data-toggle="dropdown" href="#">Menu</a>
+            <ul class="dropdown-menu nav-dropdown">
+              <li><a href="movies.html">Movies</a></li>
+              <li><a href="actors.html">Actors</a></li>
+              <li><a href="news.html">News</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-btn" href="#">Showtimes</a></li>
+          <li><a class="nav-btn" href="#">Login / Register</a></li>
+        </ul>
+      </div>
+      <!-- /Header -->
+      <!-- Content -->
+      <form class="container well" action="#" style="margin-top: 20px">
+        <h1 style="margin-top: 0;">PURCHASE TICKET</h1>
+        <h3>Movie Name - Theater - Showing Date & Time</h3>
+        <label class="form-label" style="margin-top: 0; display: inline; margin-right: 15px;">Number of tickets</label><input style="display: inline" type="number" name="numTickets">
+        <label class="form-label">Credit Card Number</label>
+        <input class="text-input-md" type="text" name="ccNum">
+        <label class="form-label">Expiration Date</label>
+        <select name="expMonth">
+          <option selected="selected" value="0">Month</option>
+          <option value="1">01 - January</option>
+          <option value="2">02 - February</option>
+          <option value="3">03 - March</option>
+          <option value="4">04 - April</option>
+          <option value="5">05 - May</option>
+          <option value="6">06 - June</option>
+          <option value="7">07 - July</option>
+          <option value="8">08 - August</option>
+          <option value="9">09 - September</option>
+          <option value="10">10 - October</option>
+          <option value="11">11 - November</option>
+	        <option value="12">12 - December</option>
+        </select>
+        <select name="expYear">
+          <option selected="selected" value="Year">Year</option>
+          <option value="2017">17</option>
+          <option value="2018">18</option>
+          <option value="2019">19</option>
+          <option value="2020">20</option>
+          <option value="2021">21</option>
+          <option value="2022">22</option>
+          <option value="2023">23</option>
+          <option value="2024">24</option>
+          <option value="2025">25</option>
+          <option value="2026">26</option>
+          <option value="2027">27</option>
+        </select>
+        <div>
+          <div style="display: inline-block;">
+            <label class="form-label">First Name</label>
+            <input type="text" name="firstname">
+          </div>
+          <div style="display: inline-block;">
+            <label class="form-label">Last Name</label>
+            <input type="text" name="firstname">
+          </div>
+        </div>
+        <label class="form-label">Confirm Password</label>
+        <input class="text-input-md" type="text" name="confirm-password">
+        <button class="btn nav-btn" type="submit">Continue</button>
+      </form>
+
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>

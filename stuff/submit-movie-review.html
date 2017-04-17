@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Submit Movie Review | Salsa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/site.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+        
+        <!-- Page specific CSS links go here -->
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/submit-movie-review.css">
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <!-- Header -->
+      <div id="header" class="container">
+      <a href="#" id="logo">Salsa</a>
+        <ul class="nav nav-pills ">
+          <li>
+            <form action="#">
+              <input id="search-bar" type="text" placeholder="Search">
+            </form>
+          </li>
+          <li class="dropdown">
+            <a class="nav-btn dropdown-toggle" data-toggle="dropdown" href="#">Menu</a>
+            <ul class="dropdown-menu nav-dropdown">
+              <li><a href="movies.html">Movies</a></li>
+              <li><a href="actors.html">Actors</a></li>
+              <li><a href="news.html">News</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-btn" href="#">Showtimes</a></li>
+          <li><a class="nav-btn" href="#">Login / Register</a></li>
+        </ul>
+      </div>
+      <!-- /Header -->
+      
+      <!-- Content -->
+      <form class="container well" action="#" style="margin-top: 20px">
+        <h1 style="margin-top: 0;">SUBMIT MOVIE REVIEW</h1>
+        <h3>Movie Name</h3>
+        <label class="form-label">Rating</label>
+        <select name="rating" style="margin-bottom: 20px;">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <label class="form-label">Title</label>
+        <input class="text-input-md" type="text" name="title">
+        <label class="form-label">Review</label>
+        <textarea id="review-content" name="content"></textarea>
+        <input class="btn nav-btn" type="submit">
+      </form> 
+
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>
